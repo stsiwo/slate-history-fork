@@ -1,4 +1,4 @@
-import { Editor, Operation, Path } from 'slate'
+import { Editor, Operation, Path } from 'slate-fork'
 
 import { HistoryEditor } from './history-editor'
 
