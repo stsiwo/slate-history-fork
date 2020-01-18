@@ -1,0 +1,32 @@
+{
+  "name": "slate-history-fork",
+  "description": "An operation-based history implementation for Slate editors.",
+  "version": "0.57.1",
+  "license": "MIT",
+  "repository": "",
+  "main": "src/index.js",
+  "dependencies": {
+    "immer": "^5.0.0",
+    "is-plain-object": "^3.0.0"
+  },
+  "devDependencies": {
+    "slate-fork": "github:stsiwo/slate-fork",
+    "slate-hyperscript-fork": "github:stsiwo/slate-hyperscript-fork"
+  },
+  "peerDependencies": {
+    "slate-fork": "github:stsiwo/slate-fork"
+  },
+  "umdGlobals": {
+    "slate": "Slate"
+  },
+  "keywords": [
+    "editor",
+    "history",
+    "operation",
+    "redo",
+    "save",
+    "slate",
+    "stack",
+    "undo"
+  ]
+}
